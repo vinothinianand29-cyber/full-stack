@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance</title>
+</head>
+
+<style>
+
+.sidebar{
+
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+    font-size: 17px;
+}
+
+</style>
+
+<body>
+
+    <h1>StudentTrack</h1>
+
+    <div class="sidebar">
+     <a href="home.html">Home</a>   
+    <a href="dashboard.html">Dashboard</a>
+    <a href="attendance.html">Attendance</a>
+    <a href="reports.html">Reports</a>
+    <a href="settings.html">Settings</a>
+
+    </div>
+
+    <h2>Attendance Table:</h2>
+
+    <table border="1">
+      
+        <tr>
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Grade</th>
+            <th>Attendance %</th>
+        </tr>
+
+        <tr>
+            <td>Priya</td>
+            <td>1001</td>
+            <td>9</td>
+            <td rowspan="5">100%</td>
+
+        </tr> 
+
+        <tr>
+            <td>Anitha</td>
+            <td>1002</td>
+            <td>5</td>
+            
+
+        </tr> 
+        <tr>
+            <td>David</td>
+            <td>1003</td>
+            <td>3</td>
+        </tr> 
+
+        <tr>
+            <td>Raja</td>
+            <td>1045</td>
+            <td>8</td>
+          </tr> 
+        
+          <tr>
+            <td>Roja</td>
+            <td>1345</td>
+            <td>1</td>
+         </tr> 
+
+    </table>
+
+    <br>
+  
+    <table border="1">
+
+    <tr>
+        <th colspan="4">Student Invoice</th>
+    </tr>
+  
+     <tr>
+        <td rowspan="3">Student Details</td>
+        <td>Name:</td>
+        <td colspan="2">Roja</td>
+
+        <tr>
+        <td>Class:</td>
+        <td colspan="2">9A</td>
+    </tr>
+
+    <tr>
+        <td>Roll No:</td>
+        <td colspan="2">1345</td>
+    </tr> 
+     <br><br>
+    <tr>
+        <th>Description</th>
+        <th>Qty</th>
+        <th>Amount</th>
+        <th>Total</th>
+    </tr>
+
+    <tr>
+        <td>Tuition Fee</td>
+        <td>1</td>
+        <td>&#8377;3000</td>
+        <td rowspan="3">&#8377;5000</td>
+        
+    </tr>
+
+    <tr>
+        <td>Library Fee</td>
+        <td>1</td>
+        <td>&#8377;1000</td>
+    </tr>
+
+    <tr>
+        <td>Exam Fee</td>
+        <td>1</td>
+        <td>&#8377;1000</td>
+    </tr>
+
+</table>
+</body>
+</html>
